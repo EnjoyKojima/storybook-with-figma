@@ -23,4 +23,10 @@ export const Default: Story = {
             </BaseButton>
         `,
     }),
+    parameters: {
+        design: {
+            type: 'figma',
+            url: `https://www.figma.com/file/fXs6n40JoW6gY3qGq9mjRn/Hayato-Kojima's-team-library?type=design&node-id=2312-6&mode=design&t=kAYPfJftnwoW2rc2-4`,
+        },
+    },
 }
