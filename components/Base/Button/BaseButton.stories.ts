@@ -14,6 +14,13 @@ const meta = {
 export default meta
 type Story = StoryObj<typeof meta>
 
-export const Overview: Story = {
-    args: {},
+export const Default: Story = {
+    render: () => ({
+        components: { BaseButton },
+        template: `
+            <BaseButton>
+                ボタン
+            </BaseButton>
+        `,
+    }),
 }
